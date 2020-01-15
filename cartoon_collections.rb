@@ -7,9 +7,10 @@ def roll_call_dwarves(names)
 end
 roll_call_dwarves(dwarves)
 
+
 planeteer_calls = [ "carrot", "cucumber", "pepper"]
 def summon_captain_planet(calls)
-  calls.map! do |call|
+  calls.map do |call|
     call.capitalize  + "!"
     end
   end
