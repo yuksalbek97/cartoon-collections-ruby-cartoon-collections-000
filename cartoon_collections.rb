@@ -24,10 +24,20 @@ end
 end
 long_planeteer_calls(assorted_words)
 
-soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 def find_the_cheese (types)
   types.find do |type|
-    type == "cheddar"
-  end
+  a = "cheddar"
+  b = "gouda"
+  c = "camembert"
+  if type == a
+  return  a
+  elsif type == b
+  return b
+  elsif type == c
+  return c
+
 end
+end
+end
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 find_the_cheese(soup)
